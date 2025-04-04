@@ -1,0 +1,8 @@
+# requirements.txt
+pathway
+fastapi
+uvicorn
+streamlit
+requests
+pandas
+langgraph
