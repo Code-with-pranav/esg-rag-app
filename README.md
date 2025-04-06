@@ -71,7 +71,9 @@ Follow these steps to set up and run the application on your local machine.
    pip install -r requirements.txt
 4. **Install Ollama**:
    - Follow the instructions at https://ollama.ai/ to install Ollama.
-   - Pull the Phi3 model: ollama pull phi3
+   - Pull the Phi3 model:
+     ```bash
+     ollama pull phi3
 5. **Prepare Data Files**:
    - Create esg_stream_output.jsonl with sample ESG data, e.g.:
      ```bash
